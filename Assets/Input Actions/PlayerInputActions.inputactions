@@ -1,0 +1,51 @@
+{
+    "name": "New Controls",
+    "maps": [
+        {
+            "name": "Player Controls",
+            "id": "df06df20-2ad7-428e-98fa-b60d854a0380",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "88c7cbc6-b89d-41db-95cf-03042563739e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "32a29368-e5d2-4436-a4de-a9b69d899488",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Keyboard and Mouse",
+            "bindingGroup": "Keyboard and Mouse",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
